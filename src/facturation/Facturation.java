@@ -20,6 +20,7 @@ public class Facturation extends Application {
         Scene scene = new Scene(root);
         
         stage.getIcons().setAll(new Image(getClass().getResourceAsStream("503799.jpg")));
+        stage.setTitle("getion");
         stage.setTitle("business future");
         stage.setScene(scene);
         stage.show();
